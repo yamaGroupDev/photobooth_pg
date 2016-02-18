@@ -20,7 +20,7 @@
   <preference name="android-installLocation" value="auto"/>
 
   <gap:plugin name="org.apache.cordova.battery-status"/>
-  <gap:plugin name="org.apache.cordova.camera" source="pgb"/>
+  <gap:plugin name="org.apache.cordova.camera" spec="0.3.6" source="pgb" />
   <gap:plugin name="org.apache.cordova.media-capture"/>
   <gap:plugin name="org.apache.cordova.console"/>
   <gap:plugin name="org.apache.cordova.contacts"/>
@@ -79,11 +79,11 @@
     <allow-intent href="itms-apps:*"/>
   </platform>
   <plugins>
-   <!--  <plugin
-      name="Storage"
-      value="org.apache.cordova.Storage" />
-      <plugin
-        name="Camera"
-        value="com.foregroundcameraplugin.ForegroundCameraLauncher" /> -->
-      </plugins>
-    </widget>
+    <!-- 
+    <plugin name="Storage" value="org.apache.cordova.Storage" />
+    -->
+     
+      <plugin name="Camera" value="com.foregroundcameraplugin.ForegroundCameraLauncher" /> 
+    
+  </plugins>
+</widget>
