@@ -80,10 +80,8 @@
   </platform>
   <plugins>
     <!-- 
-    <plugin name="Storage" value="org.apache.cordova.Storage" />
-    -->
-     
+      <plugin name="Storage" value="org.apache.cordova.Storage" />
       <plugin name="Camera" value="com.foregroundcameraplugin.ForegroundCameraLauncher" /> 
-    
+    -->
   </plugins>
 </widget>
