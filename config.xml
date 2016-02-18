@@ -81,9 +81,9 @@
     <allow-intent href="itms-apps:*"/>
   </platform>
   <plugins>
-    <plugin
+<!--     <plugin
       name="Storage"
-      value="org.apache.cordova.Storage" />
+      value="org.apache.cordova.Storage" /> -->
       <plugin
         name="Camera"
         value="com.foregroundcameraplugin.ForegroundCameraLauncher" />
