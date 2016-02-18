@@ -18,7 +18,7 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
-  <gap:plugin name="org.apache.cordova.battery-status"/>
+<!--   <gap:plugin name="org.apache.cordova.battery-status"/>
   <gap:plugin name="org.apache.cordova.camera"/>
   <gap:plugin name="org.apache.cordova.media-capture"/>
   <gap:plugin name="org.apache.cordova.console"/>
@@ -35,7 +35,29 @@
   <gap:plugin name="org.apache.cordova.media"/>
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
-  <gap:plugin name="org.apache.cordova.vibration"/>
+  <gap:plugin name="org.apache.cordova.vibration"/> -->
+  <plugin name="Camera" spec="n/a" />
+  <plugin name="Storage" spec="n/a" />
+  <plugin name="cordova-plugin-whitelist" spec="n/a" />
+  <plugin name="org.apache.cordova.battery-status" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.camera" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.console" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.contacts" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.device" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.device-motion" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.device-orientation" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.dialogs" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.file" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.file-transfer" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.geolocation" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.globalization" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.inappbrowser" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.media" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.media-capture" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.network-information" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.splashscreen" source="pgb" spec="n/a" />
+  <plugin name="org.apache.cordova.vibration" source="pgb" spec="n/a" />
+
   
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
@@ -79,10 +101,10 @@
   </platform>
   <plugins>
     <plugin
-        name="Storage"
-        value="org.apache.cordova.Storage" />
-    <plugin
+      name="Storage"
+      value="org.apache.cordova.Storage" />
+      <plugin
         name="Camera"
         value="com.foregroundcameraplugin.ForegroundCameraLauncher" />
-</plugins>
-</widget>
+      </plugins>
+    </widget>
